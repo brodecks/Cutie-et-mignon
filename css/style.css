@@ -1,0 +1,58 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff5f5;
+  margin: 0;
+  padding: 20px;
+  text-align: center; /* Centre tout le texte */
+}
+
+/* Titre principal */
+h1 {
+  color: #000000; /* Noir */
+  font-weight: bold; /* Gras */
+  font-size: 2.5em; /* Taille augmentée */
+  margin-bottom: 10px; /* Espace sous le titre */
+}
+
+/* Sous-titre */
+h2 {
+  color: #000000; /* Noir */
+  font-weight: bold; /* Gras */
+  font-size: 1.5em;
+  margin-top: 0; /* Réduit l'espace au-dessus */
+}
+
+/* Ligne de séparation */
+hr {
+  border: 0;
+  height: 2px;
+  background-color: #ffb6c1; /* Rose */
+  width: 50%; /* Moitié de la largeur */
+  margin: 20px auto; /* Centrage */
+}
+
+/* Bouton */
+button {
+  background-color: #ff8fab; /* Rose vif */
+  color: white; /* Texte blanc */
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px; /* Bords arrondis */
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s; /* Animation fluide */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Effet au survol */
+button:hover {
+  background-color: #ff6b88; /* Rose plus foncé */
+  transform: scale(1.05); /* Légèrement agrandi */
+}
+
+/* Effet quand on clique */
+button:active {
+  transform: scale(0.98); /* Rétrécit légèrement */
+}
