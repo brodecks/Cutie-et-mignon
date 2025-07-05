@@ -165,9 +165,12 @@ const filmsParGenre = {
             }
 
             const filmAleatoire = films[Math.floor(Math.random() * films.length)];
+            const transfo = filmAleatoire.split(' (')[0];
+            const letterboxd = transfo.toLowerCase().replace(/\s+/g, '-');
             document.getElementById("resultat").innerHTML = `
                 <h3>🎬 Film recommandé :</h3>
                 <p><strong>${filmAleatoire}</strong></p>
+                <a href="https://letterboxd.com/film/${letterboxd}">Page Letterboxd</a>
                 <p><em>Genre : ${document.getElementById("genre").options[document.getElementById("genre").selectedIndex].text}</em></p>
             `;
         }
